@@ -249,7 +249,7 @@ html {
     -webkit-transition: max-width 0.25s linear, margin-left 0.125s linear;
     transition: max-width 0.25s linear, margin-left 0.125s linear; }
   .modal--fade header, .modal--show header {
-    border-bottom: 1px solid #ddd;
+/*    border-bottom: 1px solid #ddd;*/
     padding: 0 1.2em; }
     .modal--fade header > h2, .modal--show header > h2 {
       margin: 0.5em 0; }
