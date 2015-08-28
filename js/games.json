@@ -3,72 +3,77 @@
 		"title":"BarTap",
 		"imgGame":"img/mini_logo/Bartap.png",
 		"desc": "Bar Tap is a virtual bar game. Challenge your friends and see who will pay the next round! Perfect to organize events and a friendly esport competition.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"images": [
+  			{"title": "Image 1", "url": "img/GalleryGames/Bartap1.png"},
+  			{"title": "Image 2", "url": "img/GalleryGames/Bartap2.png"},
+  			{"title": "Image 3", "url": "img/GalleryGames/Bartap3.png"},
+  			{"title": "Image 4", "url": "img/GalleryGames/Bartap4.png"}
+ 		]
 	},
 	"progeny":{
 		"title":"Progeny",
 		"imgGame":"img/mini_logo/Progeny.png",
-		"desc": "Insure the survival of 6 different species by making them evolve as they travel the galaxy in search of a new home.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "Insure the survival of 6 different species by making them evolve as they travel the galaxy in search of a new home."
+
 	},
 	"hypnoquest2":{
 		"title":"HypnoQuest 2",
 		"imgGame":"img/mini_logo/HypnoQuest2Logo.png",
-		"desc": "In this sequel to EQ1, explore the pathology of the mind through 10 levels. Each one is insane & difficult. Unlock new levels by earning good grades.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "In this sequel to EQ1, explore the pathology of the mind through 10 levels. Each one is insane & difficult. Unlock new levels by earning good grades."
+
 	},
 	"hypnoquest":{
 		"title":"HypnoQuest",
 		"imgGame":"img/mini_logo/HypnoQuest.png",
-		"desc": "An intensive arcade game where the entire screen & effects are your opponent. A game of EQ is fast paced and will test all of your best reflexes.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "An intensive arcade game where the entire screen & effects are your opponent. A game of EQ is fast paced and will test all of your best reflexes."
+
 	},
 	"uith":{
 		"title":"Up in the Heavens",
 		"imgGame":"img/mini_logo/UpintheHeavensLOGO.png",
-		"desc": "Up in the Heavens is a simple arcade game using the phone&tablet's gyroscope feature. As the player travels the sky, he must avoid obstacles on a semi invisible highway by rotating left and right. Waypoints along the way will allow the player to experience ever increasing speed on his travel in the heavens.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "Up in the Heavens is a simple arcade game using the phone&tablet's gyroscope feature. As the player travels the sky, he must avoid obstacles on a semi invisible highway by rotating left and right. Waypoints along the way will allow the player to experience ever increasing speed on his travel in the heavens."
+
 	},
 	"songlords":{
 		"title":"Song Lords",
 		"imgGame":"img/mini_logo/SongLords.png",
-		"desc": "Fight with your friends online with music. Both you & your opponent will choose a song and play a dynamic sequence that is generated by music.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "Fight with your friends online with music. Both you & your opponent will choose a song and play a dynamic sequence that is generated by music."
+
 	},
 	"vikingraid":{
 		"title":"Viking Raid",
 		"imgGame":"img/mini_logo/vikinglogo.png",
-		"desc": "A family oriented application used to discover Paris in a whole new way: as a pillaging Viking! Set in the historical times of the 9th century, the player will participate in the sack of Paris, and learn more about the impact of the Vikings in Europe and in France. A perfect way to learn, see Paris in a new light, and to obtain special bargains with shops and attractions.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "A family oriented application used to discover Paris in a whole new way: as a pillaging Viking! Set in the historical times of the 9th century, the player will participate in the sack of Paris, and learn more about the impact of the Vikings in Europe and in France. A perfect way to learn, see Paris in a new light, and to obtain special bargains with shops and attractions."
+
 	},
 	"forms":{
 		"title":"Forms",
 		"imgGame":"img/mini_logo/logo.jpg",
-		"desc": "Use your brain and reflexes in this increasingly difficult arcade game. Find the order of angles to click, and get coins to gather more time.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "Use your brain and reflexes in this increasingly difficult arcade game. Find the order of angles to click, and get coins to gather more time."
+
 	},
 	"ysnp":{
 		"title":"You Shall Not Path",
 		"imgGame":"img/mini_logo/YSNP.png",
-		"desc": "The Maze of YSNP awaits. Its randomly generated rooms will hold hours of delight and challenge. The speed of the screen increases as you play.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "The Maze of YSNP awaits. Its randomly generated rooms will hold hours of delight and challenge. The speed of the screen increases as you play."
+
 	},
 	"fishest":{
 		"title":"The Fishest !",
 		"imgGame":"img/mini_logo/Survival.png",
-		"desc": "Play a fish stuck in the Mariana Trench. Eat smaller fish, avoid larger ones, and battle the 7 bosses of the sea. Survive the depths!",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "Play a fish stuck in the Mariana Trench. Eat smaller fish, avoid larger ones, and battle the 7 bosses of the sea. Survive the depths!"
+
 	},
 	"mmup":{
 		"title":"Match Me Up",
 		"imgGame":"img/mini_logo/mmup.png",
-		"desc": "A new way to approach dating apps. MMup is a local & Hot seat initiative. Challenge the object of your desire to a challenge for their number.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "A new way to approach dating apps. MMup is a local & Hot seat initiative. Challenge the object of your desire to a challenge for their number."
+
 	},
 	"breakup":{
 		"title":"#BreakUp",
 		"imgGame":"img/mini_logo/Breakup.png",
-		"desc": "A classy way to let your other half that it's over. Answer 10 questions that will redefine your relationship, and share that status with him/her.",
-		"summy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper lacinia efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu consectetur risus, at rutrum purus. Curabitur sed nibh leo. Suspendisse dapibus velit ac congue mattis. Duis sed urna eu arcu mattis semper. Quisque dictum egestas ornare. Praesent ut lorem sit amet elit blandit tristique id id ligula. Praesent eu fermentum sem. Integer porttitor, leo quis consequat auctor, nisl dui lacinia enim, vitae tempus ligula ipsum et orci. Vivamus"
+		"desc": "A classy way to let your other half that it's over. Answer 10 questions that will redefine your relationship, and share that status with him/her."
+
 	}
 }
