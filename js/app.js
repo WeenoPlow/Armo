@@ -78,7 +78,7 @@
 
 						modalEl.find('#modal-label').html(gameData.title);
 						modalEl.find('.IMG-modalgame').attr('src', gameData.imgGame);
-						modalEl.find('.desc-modalgame').html(gameData.desc);
+						modalEl.find('#desc-modalgame').html(gameData.desc);
 						modalEl.find('.visu1').attr('src', gameData.images[0].url);
 						modalEl.find('.visu2').attr('src', gameData.images[1].url);
 						modalEl.find('.visu3').attr('src', gameData.images[2].url);
@@ -89,6 +89,11 @@
 						modalEl.find('#visu2').attr('href', gameData.images[1].url);
 						modalEl.find('#visu3').attr('href', gameData.images[2].url);
 						modalEl.find('#visu4').attr('href', gameData.images[3].url);
+
+
+						modalEl.find('#andro a').attr('href', gameData.QRcodes[0].url);
+						modalEl.find('#wphone a').attr('href', gameData.QRcodes[1].url);
+						modalEl.find('#apple a').attr('href', gameData.QRcodes[2].url);
 					});
 
 					gameTargetEl.append(templateClone);

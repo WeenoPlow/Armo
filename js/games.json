@@ -8,6 +8,11 @@
   			{"title": "Image 2", "url": "img/GalleryGames/Bartap2.png"},
   			{"title": "Image 3", "url": "img/GalleryGames/Bartap3.png"},
   			{"title": "Image 4", "url": "img/GalleryGames/Bartap4.png"}
+ 		],
+ 		"QRcodes":[
+ 			{"title": "android", "url": "img/QRCODES/BarTapAndroid.png"},
+ 			{"title": "android", "url": "img/QRCODES/BartapWPhone.png"},
+ 			{"title": "android", "url": "img/QRCODES/BartapiOS.png"}
  		]
 	},
 	"progeny":{

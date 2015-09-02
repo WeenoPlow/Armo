@@ -57,10 +57,8 @@ html {
     display: block\9; }
   .modal--fade .modal-inner, .modal--show .modal-inner {
     position: absolute;
-    top: 30%;
-    left: 38%;
+    top: 15%;
     z-index: 20;
-    margin-left: -325px;
 /*    width: 900px;*/
 /*    overflow-x: hidden;*/
     -webkit-overflow-scrolling: touch; }

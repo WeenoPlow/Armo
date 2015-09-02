@@ -52,7 +52,7 @@
 		</header>
 	<div class="row redBg offsetHeader" id="">
 		<div class="col-md-8 col-sm-12 col-xs-12">
-			<img class="logoArmo" src="img/armo-logo2.png"/>
+			<img class="logoArmo img-responsive" src="img/armo-logo2.png"/>
 			<h1>We Create Worlds for the palm of your hand</h1>
 			<div class="btnGroup col-md-12">
 				<ul class=" col-md-offset-1 col-md-12">
@@ -236,7 +236,7 @@
 
 			<div class="form-group">
 				<label class="col-md-4 control-label">Prix estimÃ© :</label>
-				<span class="price-target"></span> â‚¬
+				<span class="price-target"></span> 
 			</div>
 
 		</fieldset>
@@ -367,8 +367,10 @@
 			</form>
 		</div>
 		<div class="col-md-offset-1 col-md-5 partner">
-			<h1>Our Partner</h1>   
-			<img class="" src="img/WWSIGHT.jpeg" alt="">
+			<h1>Our Partners</h1>   
+			<div><img class="" src="img/WWSIGHT.jpeg" alt="">
+			<P>WWSIGHT est une société experte en nouvelles technologies et en gestion de projets IT. Elle est composée d'ingénieurs expérimentés en informatique et en réseaux.
+			Depuis deux ans, Armogaste et WWSIGHT travaillent ensemble sur des projets et diverses applications sur mobile.</P></div>
 			<img class="" src="img/logoInge.jpg" alt="">
 
 		</div>
@@ -378,34 +380,44 @@
 		<div class="modal-inner col-md-8 col-md-offset-2">
 			<header id="modal-label"></header>
 			<div class="modal-content col-md-12">
-				<div class="col-md-3 ">
+				<div class="col-md-3 col-sm-3">
 					<img class="IMG-modalgame img-responsive">
 				</div>
-				<div class="col-md-9 desc-modalgame"></div>
-				<div class="col-md-12 GalleryGames">
-					<div class="col-md-3">
+				<div class="col-md-5 col-sm-5 desc-modalgame">
+				<span class="col-md-12 col-sm-12"><h3>Description</h3></span>
+					<p id="desc-modalgame"></p>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<span class="col-md-12 col-sm-12"><h3>Downloads</h3></span>
+					<div class="col-md-4 col-sm-4 support" id="andro"><a target="_blank"><i class="fa fa-android fa-4x"></i></div></a>
+					<div class="col-md-4 col-sm-4 support" id="wphone"><a target="_blank"><i class="fa fa-windows fa-4x"></i></div></a>
+					<div class="col-md-4 col-sm-4 support" id="apple"><a target="_blank"><i class="fa fa-apple fa-4x"></i></div></a>
+				</div>
+				<span class="col-md-12 col-sm-12"><h3>Gallery</h3></span>
+				<div class="col-md-12 col-sm-12 GalleryGames">
+					<div class="col-md-3 col-sm-6">
 						<a id="visu1" data-lightbox="visuel">
 							<img class="visu1 img-responsive"/>
 						</a>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6">
 						<a id="visu2" data-lightbox="visuel">
 							<img class="visu2 img-responsive"/>
 						</a>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6">
 						<a id="visu3" href="" data-lightbox="visuel">
 							<img class="visu3 img-responsive"/>
 						</a>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6">
 						<a id="visu4" data-lightbox="visuel">
 							<img class="visu4 img-responsive"/>
 						</a>
 					</div>
 				</div>
+				<div class="col-md-12 col-sm-12 col-xs-0"><a href="#!" id="close-btn" class="close-action col-md-2 col-sm-2 col-xs-12" title="Close this modal" data-dismiss="modal">Close</a></div>				
 			</div>
-			<a href="#!" id="close-btn" class="close-action" title="Close this modal" data-dismiss="modal">Close</a>
 		</div>
 
 		<a href="#!" class="modal-close" title="Close this modal" data-close="Close"
