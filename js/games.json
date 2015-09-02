@@ -31,7 +31,7 @@
 	"uith":{
 		"title":"Up in the Heavens",
 		"imgGame":"img/mini_logo/UpintheHeavensLOGO.png",
-		"desc": "Up in the Heavens is a simple arcade game using the phone&tablet's gyroscope feature. As the player travels the sky, he must avoid obstacles on a semi invisible highway by rotating left and right. Waypoints along the way will allow the player to experience ever increasing speed on his travel in the heavens."
+		"desc": "An arcade game using the phone&tablet's gyroscope feature. The player must avoid obstacles on a semi-invisible highway."
 
 	},
 	"songlords":{
@@ -43,12 +43,12 @@
 	"vikingraid":{
 		"title":"Viking Raid",
 		"imgGame":"img/mini_logo/vikinglogo.png",
-		"desc": "A family oriented application used to discover Paris in a whole new way: as a pillaging Viking! Set in the historical times of the 9th century, the player will participate in the sack of Paris, and learn more about the impact of the Vikings in Europe and in France. A perfect way to learn, see Paris in a new light, and to obtain special bargains with shops and attractions."
+		"desc": "Discover Paris as a pillaging Viking in this fun family oriented app! The player will learn of the Vikings in Europe and obtain great bargains in shops and museums."
 
 	},
 	"forms":{
 		"title":"Forms",
-		"imgGame":"img/mini_logo/logo.jpg",
+		"imgGame":"img/mini_logo/Logo.jpg",
 		"desc": "Use your brain and reflexes in this increasingly difficult arcade game. Find the order of angles to click, and get coins to gather more time."
 
 	},

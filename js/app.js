@@ -83,7 +83,12 @@
 						modalEl.find('.visu2').attr('src', gameData.images[1].url);
 						modalEl.find('.visu3').attr('src', gameData.images[2].url);
 						modalEl.find('.visu4').attr('src', gameData.images[3].url);
-						
+
+
+						modalEl.find('#visu1').attr('href', gameData.images[0].url);
+						modalEl.find('#visu2').attr('href', gameData.images[1].url);
+						modalEl.find('#visu3').attr('href', gameData.images[2].url);
+						modalEl.find('#visu4').attr('href', gameData.images[3].url);
 					});
 
 					gameTargetEl.append(templateClone);
