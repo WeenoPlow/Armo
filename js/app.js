@@ -79,20 +79,18 @@
 						modalEl.find('#modal-label').html(gameData.title);
 						modalEl.find('.IMG-modalgame').attr('src', gameData.imgGame);
 						modalEl.find('#desc-modalgame').html(gameData.desc);
-						
-						/*________________Gallery apercu des jeux______________*/
 						modalEl.find('.visu1').attr('src', gameData.images[0].url);
 						modalEl.find('.visu2').attr('src', gameData.images[1].url);
 						modalEl.find('.visu3').attr('src', gameData.images[2].url);
 						modalEl.find('.visu4').attr('src', gameData.images[3].url);
 
-						/*___________________Gallery dans la lightbox_______________*/
+
 						modalEl.find('#visu1').attr('href', gameData.images[0].url);
 						modalEl.find('#visu2').attr('href', gameData.images[1].url);
 						modalEl.find('#visu3').attr('href', gameData.images[2].url);
 						modalEl.find('#visu4').attr('href', gameData.images[3].url);
 
-						/*____________________________QRcodes________________________*/
+
 						modalEl.find('#andro a').attr('href', gameData.QRcodes[0].url);
 						modalEl.find('#wphone a').attr('href', gameData.QRcodes[1].url);
 						modalEl.find('#apple a').attr('href', gameData.QRcodes[2].url);
@@ -103,25 +101,6 @@
 			}
 		}
 	}
-    	/*______________________Smooth Scroll_____________________*/
-		$('.scrollto[href^="#"]').on('click',function (e) {
-			    e.preventDefault();
+    
 
-			    var target = this.hash;
-			    var $target = $(target);
-
-			    $('html, body').stop().animate({
-			        'scrollTop': $target.offset().top
-			    }, 900, 'swing', function () {
-			        window.location.hash = target;
-			    });
-		});
-
-
-	$(window).scroll(function() {
-    	if ($(this).scrollTop() > 0) {
-        // apply effects and animations
-        	$('')
-    	}
-});
 })();
