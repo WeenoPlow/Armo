@@ -248,8 +248,8 @@ div#slider figure {
   display: table;
   margin-top: 2%;
   -webkit-box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
--moz-box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
-box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
+ -moz-box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
+ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
 
 }
 .text-align{
@@ -265,13 +265,9 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
 .titleGameSection{
   text-align: center;
   margin-top: 25px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 /*______Modal_______*/
-
-.plateform{
-  width: 140%;
-}
 
 #close-btn{
   font-size: 22px;
