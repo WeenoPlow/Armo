@@ -1,4 +1,5 @@
-$(function(){
+
+        $(function(){
             $("#contact").submit(function(event){
                 var nom        = $("#nom").val();
                 var sujet      = $("#objet").val();

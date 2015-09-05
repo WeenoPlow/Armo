@@ -13,7 +13,7 @@
     if ( (isset($_POST["objet"])) && (strlen(trim($_POST["objet"])) > 0) ) {
         $sujet = stripslashes(strip_tags($_POST["objet"]));
     } else {
-        echo "Merci d'écrire un objet <br />";
+        echo "Merci d'écrire un sujet <br />";
         $sujet = "";
     }
 

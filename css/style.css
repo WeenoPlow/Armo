@@ -193,7 +193,7 @@ div#slider figure {
 .btnGroup li{
 
   list-style-type: none;
-  background-color: #760A0D;
+/*  background-color: #760A0D;
   background-repeat: no-repeat;
   background-position: left top;
   -webkit-border-radius: 4px;
@@ -201,9 +201,9 @@ div#slider figure {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  padding: 12px 2px 15px 2px;
+  padding: 12px 2px 15px 2px;*/
 }
-.btnGroup li:hover{
+/*.btnGroup li:hover{
   background-color: #D01F2D;
 
 }
@@ -213,7 +213,7 @@ div#slider figure {
   text-align: center;
   text-decoration: none;      
   text-shadow: 3px 0px 0px rgba(0, 0, 0, 0.50);
-}
+}*/
 .fa-youtube{
   font-size: 3vw;
   color: #e74c3c;
@@ -229,8 +229,8 @@ div#slider figure {
   color: #2980b9;
     text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.50);
 }
-#joinus{
-  margin-left: 5%;
+.hoverButtons li:hover{
+  bottom: 10px;
 }
 
 /*__________Games Section__________*/
