@@ -93,9 +93,9 @@
 						modalEl.find('#visu4').attr('href', gameData.images[3].url);
 
 						/*____________________________QRcodes________________________*/
-						modalEl.find('#andro a').attr('href', gameData.QRcodes[0].url);
-						modalEl.find('#wphone a').attr('href', gameData.QRcodes[1].url);
-						modalEl.find('#apple a').attr('href', gameData.QRcodes[2].url);
+						modalEl.find('#andro a').attr('href', gameData.store[0].url);
+						modalEl.find('#wphone a').attr('href', gameData.store[1].url);
+						modalEl.find('#apple a').attr('href', gameData.store[2].url);
 					});
 
 					gameTargetEl.append(templateClone);

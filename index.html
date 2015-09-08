@@ -22,9 +22,9 @@
 		<header id="top" class="header navbar-fixed-top">  
 			<div class="container">            
 				<h1 class="logo pull-left">
-					<a class="scrollto" href="#promo">
+					<a class="scrollto" style="text-decoration:none" href="#home">
 						<img id="logo-image" class="logo-image" src="img/icon-brand2.png" alt="Logo">
-						<span class="logo-title">Armogaste</span>
+						<span class="logo-title" >Armogaste</span>
 					</a>
 				</h1><!--//logo-->              
 				<nav id="main-nav" class="main-nav navbar-right" role="navigation">
@@ -50,7 +50,7 @@
 				</nav><!--//main-nav-->           
 			</div>
 		</header>
-	<div class="row redBg offsetHeader" id="">
+	<div class="row redBg offsetHeader" id="home">
 		<div class="col-md-8 col-sm-12 col-xs-12">
 			<img class="logoArmo img-responsive" src="img/armo-logo2.png"/>
 			<h1>We Create Worlds for the palm of your hand</h1>
@@ -76,10 +76,10 @@
 		  	<div id="slider" class="">
 		  		<figure>
 		  			<img src="img/flex/Progeny.png">
+		  			<img src="img/flex/SongLords.png">
 		  			<img src="img/flex/Forms.png">
-		  			<img src="img/flex/SLB.png">
-		  			<img src="img/flex/MMup.png">
-		  			<img src="img/flex/TheFishest.png">
+		  			<img src="img/flex/BarTap.png">
+		  			<img src="img/flex/EQ2.png">
 		  		</figure>
 		  	</div>
 	  	</div>
@@ -91,28 +91,27 @@
 		</div>
 
 	<div class="row whoSection" id="who">
-		<div class=" col-md-offset-1 col-md-4 summy">
-			<h1>Who are we ?</h1>
-		</br>
-		<p>Armogaste SARL is a startup dedicated to the creation of mobile games and social apps. Since October 2014, we've delivered 8 apps on the three major stores (Appstore, Google Play, Windows Phone). Our portfolio includes different types of games : Arcade, Board games, Strategy, Educational, Musical and Social Apps. We offer competitive rates for the creation of such apps. We work quickly, and efficiently in a creative atmosphere with partners such as WWSight and IngÃ©Sup.
-			Thanks to a close proximity and relation to the School of IngÃ©sup we have access to dedicated developers and motivated students. Armogaste is growing and is extending its professional expertise. We are looking for more games to develop, but also would enjoy creating utility apps.
-			In a growing market of increasing expenses, we deliver a transparent budget, a clear outline of development and excellent quality for your product.
-			Try our game budget generator, and find out the approximate price of your new app!
-		</p>
-	</div>
-	<div class="col-md-6 col-md-offset-1">
-		<form class="form-horizontal">
-			<fieldset>
-
-
+		<div class="col-md-offset-1 col-md-5 summy">
+			<div class="col-md-12">
+				<h2>Who are we ?</h2>
+				</br>
+				<p>Armogaste SARL is a startup dedicated to the creation of mobile games and social apps. Since October 2014, we've delivered 8 apps on the three major stores (Appstore, Google Play, Windows Phone). Our portfolio includes different types of games : Arcade, Board games, Strategy, Educational, Musical and Social Apps. We offer competitive rates for the creation of such apps. We work quickly, and efficiently in a creative atmosphere with partners such as WWSight and IngÃ©Sup.
+					Thanks to a close proximity and relation to the School of IngÃ©sup we have access to dedicated developers and motivated students. Armogaste is growing and is extending its professional expertise. We are looking for more games to develop, but also would enjoy creating utility apps.
+					In a growing market of increasing expenses, we deliver a transparent budget, a clear outline of development and excellent quality for your product.
+					Try our game budget generator, and find out the approximate price of your new app!
+				</p>
+			</div>
+		</div>
+	<div class=" col-md-6 audit">
+		<form class="form-horizontal ">
 				<!-- Form Name -->
 				<h2>Audit</h2>
-			</p>Create your game with us
+			
+				</p>Create your game with us
+				This is an approximation of an app budget with Armogaste. 
+				Details depend on app specifications from the client. </p>
 
-			This is an approximation of an app budget with Armogaste. 
-			Details depend on app specifications from the client. </p>
-
-
+			<fieldset>
 			<!-- Multiple Radios (inline) -->
 			<div class="form-group">
 				<label class="col-md-4 control-label" for="Multi">Is my game for Multiplayer ?</label>
@@ -131,7 +130,7 @@
 			<!-- Select Basic -->
 			<div class="form-group">
 				<label class="col-md-4 control-label" for="GameType">Game Type</label>
-				<div class="col-md-4">
+				<div class="col-md-offset-1 col-md-4">
 					<select id="GameType" name="GameType" class="form-control">
 						<option value="Action">Action</option>
 						<option value="Arcade">Arcade</option>
@@ -147,35 +146,27 @@
 			</div>
 
 			<!-- Multiple Checkboxes -->
-			<div class="form-group">
-				<label class="col-md-4 control-label" for="Plateform">Plateform</label>
-				<div class="col-md-4">
-					<div class="checkbox">
-						<label for="Plateform-0">
-							<input type="checkbox" name="Plateform" id="Plateform-0" value="iOS">
-							iOS
-						</label>
-					</div>
-					<div class="checkbox">
-						<label for="Plateform-1">
-							<input type="checkbox" name="Plateform" id="Plateform-1" value="Android">
-							Android
-						</label>
-					</div>
-					<div class="checkbox">
-						<label for="Plateform-2">
-							<input type="checkbox" name="Plateform" id="Plateform-2" value="WindowsPhone">
-							Windows Phone
-						</label>
-					</div>
-					<div class="checkbox">
-						<label for="Plateform-3">
-							<input type="checkbox" name="Plateform" id="Plateform-3" value="Web">
-							Web
-						</label>
-					</div>
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="checkboxes">Plateform</label>
+				  <div class="">
+				    <label class="checkbox-inline" for="checkboxes-0">
+				      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+				      iOS
+				    </label>
+				    <label class="checkbox-inline" for="checkboxes-1">
+				      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+				      Android
+				    </label>
+				    <label class="checkbox-inline" for="checkboxes-2">
+				      <input type="checkbox" name="checkboxes" id="checkboxes-2" value="3">
+				      WinPhone
+				    </label>
+				    <label class="checkbox-inline" for="checkboxes-3">
+				      <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
+				      Web
+				    </label>
+				  </div>
 				</div>
-			</div>
 
 			<!-- Multiple Radios (inline) -->
 			<div class="form-group">
@@ -288,32 +279,43 @@
 	</div>
 	<div class="row redBg" id="team">
 		<div class="col-md-12 titleTeamSection" id=""><h1>Our team</h1></div>
-
-		<div class=" col-md-offset-1 col-md-2 team">
-			<img class="center-img img-circle img-responsive delpadding" src="img/Matthias.png" alt="">
-			<h3 class="name">Matthias Crévieaux</h3>
-			<h3 class="titlejob">CEO</h3>
+		<div class="row">
+			<div class="col-md-5 team">	
+				<div class="col-md-9">
+					<h3 class="names">Matthias Crévieaux</h3>
+					<h3 class="titlejobs">CEO</h3>
+				</div>
+				<img class=" col-md-3 center-img img-circle img-responsive delpadding" src="img/Matthias.png" alt="">
+			</div>
+			<div class=" col-md-offset-2 col-md-5 team">
+				<img class=" col-md-3 center-img img-circle img-responsive delpadding" src="img/Loic.png" alt="">
+				<div class="col-md-9">
+					<h3 class="name">Loïc Janin</h3>
+					<h3 class="titlejob">Lead Developer</h3>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-offset-1 col-md-2 team">
-			<img class="center-img img-circle img-responsive delpadding" src="img/Loic.png" alt="">
-			<h3 class="name">Loïc Janin</h3>
-			<h3 class="titlejob">Lead Developer</h3>
-		</div>
-		<div class="col-md-offset-1  col-md-2 team">
-			<img class="center-img img-circle img-responsive delpadding" src="img/nico.png" alt="">
-			<h3 class="name">Nicolas Degrave</h3>
-			<h3 class="titlejob">Developer</h3>
-		</div>
-		<div class="col-md-offset-1 col-md-2 team">
-			<img class="center-img img-circle img-responsive delpadding" src="img/nico.png" alt="">
-			<h3 class="name">Manon Durbet</h3>
-			<h3 class="titlejob">Developer Web</h3>
+		<div class="row teamRow">
+			<div class="col-md-5 team">
+				<div class="col-md-9">
+					<h3 class="names">Nicolas Degrave</h3>
+					<h3 class="titlejobs">Developer</h3>
+				</div>
+				<img class=" col-md-3 center-img img-circle img-responsive delpadding" src="img/nico.png" alt="">
+			</div>
+			<div class="col-md-offset-2 col-md-5 team"> 
+				<img class=" col-md-3 center-img img-circle img-responsive delpadding" src="img/nico.png" alt="">
+				<div class="col-md-9">
+					<h3 class="name">Manon Durbet</h3>
+					<h3 class="titlejob">Developer Web</h3>
+				</div>	
+			</div>
 		</div>
 	</div>
 	<div class="row" id="contactSection">
-		<div class="formContact col-md-offset-1 col-md-5 wow " data-wow-delay="0.7s" id="form_contact">
+		<div class="formContact col-md-offset-1 col-md-5 wow bounceIn" data-wow-delay="1s" id="form_contact">
 
-			<form class="form-horizontal form2" method="POST" action="contact.php" id="contact">
+			<form class="form-horizontal form2" method="POST" action="contact.php" id="contact" onSubmit="clearMess()">
 				<fieldset>
 
 					<h1 class="col-md-10">Contact us</h1>
@@ -353,7 +355,7 @@
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="singlebutton"></label>
 						<div class="col-md-4">
-							<button id="singlebutton" type="submit" name="singlebutton" class="btn btn-thm">Send Message</button>
+							<button id="singlebutton" type="submit" name="singlebutton" onclick="clearMess()" class="btn btn-thm">Send Message</button>
 						</div>
 					</div>
 				<span id="validation"></span>

@@ -13,6 +13,7 @@
 body{
   font-family: "Play",Helvetica,Arial,sans-serif;
 
+
 }
 .row{
   margin-right: 0px !important;
@@ -362,12 +363,31 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   color: #C7D2CA;
   text-shadow: 2px 2px 1px #000000;
 }
+.modal--fade .modal-content, .modal--show .modal-content{
+  max-height: 100% !important;
+}
 /*___________ Who Section____________*/
 
+.audit{
+/*  background-image: url('../img/cadre2.png');
+  background-repeat: no-repeat;
+  background-size: 495px;
+  background-position: 0px 14px;*/
+}
+.audit p{
+  margin-top: 40px;
+  width: 900px;
+}
 
+.summy h2{
+
+}
 .summy{
-  
-
+    background-image: url('../img/cadre.png');
+    background-repeat: no-repeat;
+    background-size: 495px;
+    background-position: 0px 14px;
+    padding-left: 30px;
 }
 .whoSection{
   background-image: url('../img/BG_grey.png');
@@ -381,6 +401,13 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   text-align: center;
 }
 
+.form-group label{
+  font-weight: 100;
+}
+/*.form-group{
+
+  border-bottom: 2px solid black;
+}*/
 
 /*________Reviews________*/
 
@@ -405,7 +432,7 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   color: #E2272E;
 }
 #reviewstitle{
-  padding-top: 3%;
+  padding-top: 6%;
   padding-bottom: 3%;
   text-align: center;
   font-size: 35px;
@@ -424,12 +451,20 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
 }
 /*______Team________*/
 
-.name{
+.name, .names{
   color: #000000;
 }
-.titlejob{
+.titlejob, .titlejobs{
   color: #c4e7d9;
 }
+
+.name, .titlejob {
+  text-align: left;
+}
+.names, .titlejobs{
+  text-align: right;
+}
+
 .center-img{
   margin-right: auto;
   margin-left: auto;
@@ -443,7 +478,9 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   margin-bottom: 25px;
   color: white;
 }
-
+.teamRow{
+  padding-bottom: 50px;
+}
 /*____Contact Section_____*/
 
 #contactSection{

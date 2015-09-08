@@ -9,16 +9,27 @@
   			{"title": "Image 3", "url": "img/GalleryGames/Bartap3.png"},
   			{"title": "Image 4", "url": "img/GalleryGames/Bartap4.png"}
  		],
- 		"QRcodes":[
+ 		"store":[
  			{"title": "android", "url": "img/QRCODES/BarTapAndroid.png"},
- 			{"title": "android", "url": "img/QRCODES/BartapWPhone.png"},
- 			{"title": "android", "url": "img/QRCODES/BartapiOS.png"}
+ 			{"title": "wphone", "url": "img/QRCODES/BartapWPhone.png"},
+ 			{"title": "ios", "url": "img/QRCODES/BartapiOS.png"}
  		]
 	},
 	"progeny":{
 		"title":"Progeny",
 		"imgGame":"img/mini_logo/Progeny.png",
-		"desc": "Insure the survival of 6 different species by making them evolve as they travel the galaxy in search of a new home."
+		"desc": "Insure the survival of 6 different species by making them evolve as they travel the galaxy in search of a new home.",
+		"images": [
+  			{"title": "Image 1", "url": "img/GalleryGames/PROGENY1.jpg"},
+  			{"title": "Image 2", "url": "img/GalleryGames/PROGENY2.png"},
+  			{"title": "Image 3", "url": "img/GalleryGames/PROGENY3.png"},
+  			{"title": "Image 4", "url": "img/GalleryGames/PROGENY4.png"}
+ 		],
+ 		"store":[
+ 			{"title": "android", "url": "img/QRCODES/BarTapAndroid.png"},
+ 			{"title": "wphone", "url": "img/QRCODES/BartapWPhone.png"},
+ 			{"title": "ios", "url": "img/QRCODES/BartapiOS.png"}
+ 		]
 
 	},
 	"hypnoquest2":{
@@ -54,7 +65,18 @@
 	"forms":{
 		"title":"Forms",
 		"imgGame":"img/mini_logo/Logo.jpg",
-		"desc": "Use your brain and reflexes in this increasingly difficult arcade game. Find the order of angles to click, and get coins to gather more time."
+		"desc": "Use your brain and reflexes in this increasingly difficult arcade game. Find the order of angles to click, and get coins to gather more time.",
+		"images": [
+  			{"title": "Image 1", "url": "img/GalleryGames/Coins1.jpg"},
+  			{"title": "Image 2", "url": "img/GalleryGames/Coins2.jpg"},
+  			{"title": "Image 3", "url": "img/GalleryGames/Coins3.jpg"},
+  			{"title": "Image 4", "url": "img/GalleryGames/Coins4.jpg"}
+ 		],
+ 		"store":[
+ 			{"title": "android", "url": "img/QRCODES/BarTapAndroid.png"},
+ 			{"title": "wphone", "url": "img/QRCODES/BartapWPhone.png"},
+ 			{"title": "ios", "url": "img/QRCODES/BartapiOS.png"}
+ 		]
 
 	},
 	"ysnp":{
