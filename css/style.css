@@ -12,7 +12,7 @@
 /*******Body********/
 body{
   font-family: "Play",Helvetica,Arial,sans-serif;
-
+  image-rendering:  auto;
 
 }
 .row{
@@ -169,7 +169,11 @@ background-size: cover;
   96% { left: -400%; }
 }
 
-body { margin: 0; } 
+body { margin: 0; }
+
+.img-rendering{
+  image-rendering: optimizequality;
+} 
 div#slider { 
     overflow: hidden;
     padding-top: 104px;

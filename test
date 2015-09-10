@@ -1,0 +1,150 @@
+<div id="modalGames" class="modal fade" tabindex="-1"  style="display: none;">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title" id="modal-label"></h4>
+  </div>
+  <div class="modal-body">
+    <div class="col-md-3 col-sm-3">
+          <img class="IMG-modalgame img-responsive">
+        </div>
+        <div class="col-md-5 col-sm-5 desc-modalgame">
+        <span class="col-md-12 col-sm-12"><h3>Description</h3></span>
+          <p id="desc-modalgame"></p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <span class="col-md-12 col-sm-12"><h3>Downloads</h3></span>
+          <div class="col-md-4 col-sm-4 support" id="andro"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_android.png"></a></div>
+          <div class="col-md-4 col-sm-4 support" id="wphone"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_windows.png"></a></div>
+          <div class="col-md-4 col-sm-4 support" id="apple"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_apple.png"></a></div>
+        </div>
+        <span class="col-md-12 col-sm-12"><h3>Gallery</h3></span>
+        <div class="col-md-12 col-sm-12 GalleryGames">
+          <div class="col-md-3 col-sm-6">
+            <a id="visu1" data-lightbox="visuel">
+              <img class="visu1 img-responsive"/>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a id="visu2" data-lightbox="visuel">
+              <img class="visu2 img-responsive"/>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a id="visu3" href="" data-lightbox="visuel">
+              <img class="visu3 img-responsive"/>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a id="visu4" data-lightbox="visuel">
+              <img class="visu4 img-responsive"/>
+            </a>
+          </div>
+        </div>        
+      </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+
+
+-------------------------------
+
+<section class="modal--show" id="modalGames" tabindex="-1" role="dialog" aria-labelledby="modalGames" aria-hidden="true">
+    <div class="modal-inner col-md-8 col-md-offset-2">
+      <header id="modal-label"></header>
+      <div class="modal-content col-md-12">
+        <div class="col-md-3 col-sm-3">
+          <img class="IMG-modalgame img-responsive">
+        </div>
+        <div class="col-md-5 col-sm-5 desc-modalgame">
+        <span class="col-md-12 col-sm-12"><h3>Description</h3></span>
+          <p id="desc-modalgame"></p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <span class="col-md-12 col-sm-12"><h3>Downloads</h3></span>
+          <div class="col-md-4 col-sm-4 support" id="andro"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_android.png"></a></div>
+          <div class="col-md-4 col-sm-4 support" id="wphone"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_windows.png"></a></div>
+          <div class="col-md-4 col-sm-4 support" id="apple"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_apple.png"></a></div>
+        </div>
+        <span class="col-md-12 col-sm-12"><h3>Gallery</h3></span>
+        <div class="col-md-12 col-sm-12 GalleryGames">
+          <div class="col-md-3 col-sm-6">
+            <a id="visu1" data-lightbox="visuel">
+              <img class="visu1 img-responsive"/>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a id="visu2" data-lightbox="visuel">
+              <img class="visu2 img-responsive"/>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a id="visu3" href="" data-lightbox="visuel">
+              <img class="visu3 img-responsive"/>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a id="visu4" data-lightbox="visuel">
+              <img class="visu4 img-responsive"/>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-0"><a href="#!" id="close-btn" class="close-action col-md-2 col-sm-2 col-xs-12" title="Close this modal" data-dismiss="modal">Close</a></div>        
+      </div>
+    </div>
+
+    <a href="#!" class="modal-close" title="Close this modal" data-close="Close"
+    data-dismiss="modal">X</a>
+  </section>
+  ________________________
+
+  <div class="modal fade" id="Modalgames" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content"> 
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="modal-label">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <div class="col-md-3 col-sm-3">
+            <img class="IMG-modalgame img-responsive">
+          </div>
+          <div class="col-md-5 col-sm-5 desc-modalgame">
+          <span class="col-md-12 col-sm-12"><h3>Description</h3></span>
+            <p id="desc-modalgame"></p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <span class="col-md-12 col-sm-12"><h3>Downloads</h3></span>
+            <div class="col-md-4 col-sm-4 support" id="andro"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_android.png"></a></div>
+            <div class="col-md-4 col-sm-4 support" id="wphone"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_windows.png"></a></div>
+            <div class="col-md-4 col-sm-4 support" id="apple"><a target="_blank"><img class="plateform delpadding" src="img/Bouton_apple.png"></a></div>
+          </div>
+          <span class="col-md-12 col-sm-12"><h3>Gallery</h3></span>
+          <div class="col-md-12 col-sm-12 GalleryGames">
+            <div class="col-md-3 col-sm-6">
+              <a id="visu1" data-lightbox="visuel">
+                <img class="visu1 img-responsive"/>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <a id="visu2" data-lightbox="visuel">
+                <img class="visu2 img-responsive"/>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <a id="visu3" href="" data-lightbox="visuel">
+                <img class="visu3 img-responsive"/>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <a id="visu4" data-lightbox="visuel">
+                <img class="visu4 img-responsive"/>
+              </a>
+            </div>
+          </div>
+          </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->

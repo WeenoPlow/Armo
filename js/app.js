@@ -97,7 +97,7 @@
 						modalEl.find('#wphone a').attr('href', gameData.store[1].url);
 						modalEl.find('#apple a').attr('href', gameData.store[2].url);
 					});
-
+					
 					gameTargetEl.append(templateClone);
 				}
 			}
@@ -117,6 +117,6 @@
 			        window.location.hash = target;
 			    });
 		});
-
+		
 
 })();
