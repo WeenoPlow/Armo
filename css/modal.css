@@ -168,7 +168,7 @@ html {
           top: 0;
           left: 0;
           right: 0;
-          z-index: 20; }
+          /*z-index: 20;*/ }
         .modal--fade .modal-close:after, .modal--show .modal-close:after {
           top: 5px !important;
           right: 5px;
@@ -274,7 +274,7 @@ html {
       text-indent: 0; }
   @media screen and (max-width: 30em) {
     .modal--fade .modal-close:before, .modal--show .modal-close:before {
-      background: #27aae2;
+      /*background: #27aae2;*/
       height: 3em;
       -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.6); }
