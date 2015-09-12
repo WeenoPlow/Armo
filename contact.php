@@ -13,18 +13,15 @@
     if ( (isset($_POST["objet"])) && (strlen(trim($_POST["objet"])) > 0) ) {
         $sujet = stripslashes(strip_tags($_POST["objet"]));
     } else {
-        echo "Merci d'écrire un sujet <br />";
+        echo "Merci d'écrire un objet <br />";
         $sujet = "";
     }
 
     // CONDITIONS EMAIL
-    if ( (isset($_POST["mail"])) && (strlen(trim($_POST["mail"])) > 0) && (filter_var($_POST["mail"], FILTER_VALIDATE_EMAIL)) ) {
+    if ( (isset($_POST["mail"])) && (strlen(trim($_POST["mail"])) > 0) ) {
         $email = stripslashes(strip_tags($_POST["mail"]));
-    } elseif (empty($_POST["mail"])) {
-        echo "Merci d'écrire une adresse email <br />";
-        $email = "";
     } else {
-        echo "Email invalide :(<br />";
+        echo "Merci d'écrire une adresse email <br />";
         $email = "";
     }
 
