@@ -15,6 +15,11 @@ body{
   image-rendering:  auto;
 
 }
+.button-png{
+    background-color: rgba(0,0,0,0);;
+    border-color: rgba(0,0,0,0);
+    border: 0px outset buttonface;
+}
 .row{
   margin-right: 0px !important;
   margin-left: 0px !important; 
@@ -120,9 +125,10 @@ body{
 }
 /**********BG********/
 .logoArmo{
- width: 500px;
+ width: 400px;
  margin-right: auto;
  margin-left: auto;
+ margin-top: 39px;
 }
 
 .redBg{
@@ -193,7 +199,7 @@ div#slider figure {
 
 /*__________Social Icon_______________*/
 .btnGroup{
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .btnGroup li{
 
@@ -379,30 +385,44 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   background-position: 0px 14px;*/
 }
 .audit p{
-  margin-top: 37px;
+  margin-top: 30px;
+}
+#submit-audit img{
 
 }
-
 .summy h2{
+  z-index: 2;
+}
+.whoSection img{
+  z-index: 1;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.summy p{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bg-cadre{
+/*    background-image: url('../img/button1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 31px 14px;*/
 }
 .summy{
-    background-image: url('../img/cadre.png');
-    background-repeat: no-repeat;
-    background-size: 495px;
-    background-position: 0px 14px;
-    padding-left: 30px;
 }
 .whoSection{
   background-image: url('../img/BG_grey.png');
-  padding-bottom: 5%;
-  padding-top: 5%;
-  color: white;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  color: #444444;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   font-size: 20px;
-  text-align: center;
+  text-align: justify;
 }
 
 .form-group label{
@@ -427,7 +447,7 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border-top: 5px solid rgba(255, 0, 0, 0.52);
+  border-top: 5px solid rgba(255, 0, 0, 0.72);
   position: relative;
 }
 
@@ -486,16 +506,16 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   padding-bottom: 50px;
 }
 /*____Contact Section_____*/
-
 #contactSection{
-
   padding-bottom: 5%;
 }
 #validation{
   color: white;
 }
 
-
+.sub-button{
+  margin-top: 5px;
+}
 #mpBox{
   resize:none;
   height: 
@@ -516,6 +536,9 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   color:white;
   padding-top: 2%;
 }
+.form2 img{
+  width: 100%;
+}
 .btn-thm{
   font-style: bold;
   color: white;
@@ -530,7 +553,7 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
 }
 #contact{
 
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 
