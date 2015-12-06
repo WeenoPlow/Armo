@@ -3,27 +3,27 @@
 	<head>
 		<title>Armogaste</title>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-		<link rel="shortcut icon" href="img/favicon.ico"> 
+		<link rel="shortcut icon" href="img/favicon.ico">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/modal.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> 
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link href="css/lightbox.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="css/animate.css">
 	</head>
 	<body data-spy="scroll">
 
-		<header id="top" class="header navbar-fixed-top">  
-			<div class="container">            
+		<header id="top" class="header navbar-fixed-top">
+			<div class="container">
 				<h1 class="logo pull-left">
 					<a class="scrollto" style="text-decoration:none" href="#home">
 						<img id="logo-image" class="logo-image" src="img/FaKey.png" alt="Logo">
 						<span class="logo-title" >Armogaste</span>
 					</a>
-				</h1><!--//logo-->              
+				</h1><!--//logo-->
 				<nav id="main-nav" class="main-nav navbar-right" role="navigation">
 					<div class="navbar-header">
 						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -33,7 +33,7 @@
 							<span class="icon-bar"></span>
 						</button><!--//nav-toggle-->
 					</div>
-					<!--//navbar-header-->            
+					<!--//navbar-header-->
 					<div class="navbar-collapse collapse" id="navbar-collapse">
 						<ul class="nav navbar-nav">
 							<li class="nav-item"><a class="scrollto" href="#game">Games</a></li>
@@ -44,7 +44,7 @@
 							<li class="nav-item last"><a class="scrollto" href="">Blog</a></li>
 						</ul><!--//nav-->
 					</div><!--//navabr-collapse-->
-				</nav><!--//main-nav-->           
+				</nav><!--//main-nav-->
 			</div>
 		</header>
 		<div class="row redBg offsetHeader" id="home">
@@ -54,13 +54,13 @@
 				<div class="btnGroup col-md-12">
 					<ul class="col-md-12 col-md-offset-0 col-sm-8 col-sm-offset-2 hoverButtons">
 						<li class="col-md-4 animated fadeInUp wow" data-wow-delay="0.5s">
-							<a href="#"><img class="img-responsive" src="img/twit-button.png"></a>
+							<a href="https://twitter.com/ArmogasteSarl" target="_blank"><img class="img-responsive" src="img/twit-button.png"></a>
 						</li>
 						<li class="col-md-4 animated fadeInUp wow" data-wow-delay="1s">
-							<a href="#"><img class="img-responsive" src="img/youtube.png"></a>
+							<a href="https://www.youtube.com/playlist?list=PLqjeUGM5flu1E5W0aIqeKkLilbEjiUMJz" target="_blank"><img class="img-responsive" src="img/youtube.png"></a>
 						</li>
 						<li class="col-md-4 animated fadeInUp wow" data-wow-delay="1.5s">
-							<a href="#"><img class="img-responsive" src="img/fb-button.png"></a>
+							<a href="https://www.facebook.com/armogaste" target="_blank"><img class="img-responsive" src="img/fb-button.png"></a>
 						</li>
 					</ul>
 				</div>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="container" id="games">
 			<div class="col-md-12 titleGameSection" id="game"><h1>Our Games</h1></div></div>
 		</div>
@@ -99,25 +99,24 @@
 				</p>
 			</div>
 		</div>
-		<div class=" col-md-6 audit">				
+		<div class=" col-md-6 audit">
 			<img class="img-responsive" src="img/audit-button.png">
-			
 			<p>Create your game with us
-				This is an approximation of an app budget with Armogaste. 
-				Details depend on app specifications from the client. (coming soon...) </p>
-				<form class="form-horizontal ">
+				This is an approximation of an app budget with Armogaste.
+				Details depend on app specifications from the client. Don't hesitate to contact us to discuss your game/app details and obtain a final budget for your app! </p>
+				<form class="form-horizontal audit-form" onsubmit="Submit()">
 					<!-- Form Name -->
 					<fieldset>
 						<!-- Multiple Radios (inline) -->
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="Multi">Is my game for Multiplayer ?</label>
-							<div class="col-md-4"> 
+							<div class="col-md-4">
 								<label class="radio-inline" for="Multi-0">
-									<input type="radio" name="Multi" id="Multi-0" disabled="disabled" value="Yes" checked="checked">
+									<input type="radio" name="Multi" id="Multi-0" onclick="" onChange="multiCh(this)" value="Yes">
 									Yes
-								</label> 
+								</label>
 								<label class="radio-inline" for="Multi-1">
-									<input type="radio" name="Multi" id="Multi-1" disabled="disabled" value="No">
+									<input type="radio" name="Multi" id="Multi-1" onclick="" onChange="multiCh(this)" value="No">
 									No
 								</label>
 							</div>
@@ -127,16 +126,17 @@
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="GameType">Game Type</label>
 							<div class="col-md-offset-1 col-md-4">
-								<select id="GameType" name="GameType" class="form-control" disabled="disabled">
-									<option value="Action">Action</option>
-									<option value="Arcade">Arcade</option>
-									<option value="Educationnal">Educationnal</option>
-									<option value="Strategy">Strategy</option>
-									<option value="Roleplaying">Roleplaying</option>
-									<option value="Boardgames">Boardgames</option>
-									<option value="Reflexion">Reflexion</option>
-									<option value="Music">Music</option>
-									<option value="Other">Other (Utility)</option>
+								<select id="GameType" name="GameType" onChange="GameTypeCh(this)" class="form-control">
+									<option class="options" value="None"> -- Choose game Type --</option>
+									<option class="options" value="Action">Action</option>
+									<option class="options" value="Arcade">Arcade</option>
+									<option class="options" value="Educational">Educational</option>
+									<option class="options" value="Strategy">Strategy</option>
+									<option class="options" value="Roleplaying">Roleplaying</option>
+									<option class="options" value="Boardgames">Boardgames</option>
+									<option class="options" value="Reflexion">Reflexion</option>
+									<option class="options" value="Music">Music</option>
+									<option class="options" value="Other">Other (Utility)</option>
 								</select>
 							</div>
 						</div>
@@ -144,21 +144,21 @@
 						<!-- Multiple Checkboxes -->
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="checkboxes">Plateform</label>
-							<div class="">
+							<div class="CheckPlateform" id="CheckPlateform">
 								<label class="checkbox-inline"  for="checkboxes-0">
-									<input type="checkbox" name="checkboxes" disabled="disabled" id="checkboxes-0" value="1">
+									<input type="checkbox" name="checkboxes1" class="checkboxes" id="checkbox1" onclick="Plateform(this)" value="1">
 									iOS
 								</label>
 								<label class="checkbox-inline"  for="checkboxes-1">
-									<input type="checkbox" name="checkboxes" disabled="disabled" id="checkboxes-1" value="2">
+									<input type="checkbox" name="checkboxes2" class="checkboxes" id="checkbox2" onclick="Plateform(this)" value="2">
 									Android
 								</label>
 								<label class="checkbox-inline"  for="checkboxes-2">
-									<input type="checkbox" name="checkboxes" disabled="disabled" id="checkboxes-2" value="3">
+									<input type="checkbox" name="checkboxes3" class="checkboxes" id="checkbox3" onclick="Plateform(this)" value="3">
 									WinPhone
 								</label>
 								<label class="checkbox-inline"  for="checkboxes-3">
-									<input type="checkbox" name="checkboxes" disabled="disabled" id="checkboxes-3" value="4">
+									<input type="checkbox" name="checkboxes4" class="checkboxes" id="checkbox4" onclick="Plateform(this)" value="4">
 									Web
 								</label>
 							</div>
@@ -167,43 +167,56 @@
 						<!-- Multiple Radios (inline) -->
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="assets">I will provide all of the assets</label>
-							<div class="col-md-4"> 
+							<div class="col-md-4">
 								<label class="radio-inline" for="assets-0">
-									<input type="radio" name="assets" id="assets-0" disabled="disabled" value="Yes" checked="checked">
+									<input type="radio" name="assets" id="assets-0" value="yes" onClick="cache();">
 									Yes
-								</label> 
+								</label>
 								<label class="radio-inline" for="assets-1">
-									<input type="radio" name="assets" id="assets-1" disabled="disabled" value="No">
+									<input type="radio" name="assets" id="assets-1" onClick="affiche();" value="no">
+									No
+								</label>
+							</div>
+						</div>
+						<div class="form-group audit-display" id="test-cache">
+							<label class="col-md-4 control-label" for="pGraphics">Graphics provided ?</label>
+							<div class="col-md-4">
+								<label class="radio-inline" for="pGraphics-0">
+									<input type="radio" name="pGraphics" id="pGraphics-0" onclick="afficheGraphics()" onChange="Providedgraphics(this);" value="yes">
+									Yes
+								</label>
+								<label class="radio-inline" for="pGraphics-1">
+									<input type="radio" name="pGraphics" id="pGraphics-1" onclick="cacheGraphics()" onChange="Providedgraphics(this);" value="no">
 									No
 								</label>
 							</div>
 						</div>
 
 						<!-- Multiple Radios (inline) -->
-						<div class="form-group">
+						<div class="form-group graphics-display" id="test-cache">
 							<label class="col-md-4 control-label" for="graphics">If yes, are the graphics complex ?</label>
-							<div class="col-md-4"> 
-								<label class="radio-inline" for="graphics-0">
-									<input type="radio" name="graphics" disabled="disabled" id="graphics-0" value="Yes" checked="checked">
+							<div class="col-md-4">
+								<label class="radio-inline graphics-0" for="graphics-0">
+									<input type="radio" name="graphics" id="graphics-0"  value="Yes">
 									Yes
-								</label> 
+								</label>
 								<label class="radio-inline" for="graphics-1">
-									<input type="radio" name="graphics" disabled="disabled" id="graphics-1" value="No">
+									<input type="radio" name="graphics" id="graphics-1"  value="No">
 									No
 								</label>
 							</div>
 						</div>
 
 						<!-- Multiple Radios (inline) -->
-						<div class="form-group">
+						<div class="form-group audit-display" id="test-cache">
 							<label class="col-md-4 control-label" for="SoundDesign">Sound Design provided</label>
-							<div class="col-md-4"> 
+							<div class="col-md-4">
 								<label class="radio-inline" for="SoundDesign-0">
-									<input type="radio" disabled="disabled" name="SoundDesign" id="SoundDesign-0" value="Yes" checked="checked">
+									<input type="radio" name="SoundDesign" onclick="Sound()" id="SoundDesign-0" value="Yes">
 									Yes
-								</label> 
+								</label>
 								<label class="radio-inline" for="SoundDesign-1">
-									<input type="radio" disabled="disabled" name="SoundDesign" id="SoundDesign-1" value="No">
+									<input type="radio" name="SoundDesign" onclick="Sound()" id="SoundDesign-1" value="No">
 									No
 								</label>
 							</div>
@@ -211,8 +224,9 @@
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">~</label>
-							<span class="price-target"></span> 
-							<button id="submit-audit"  disabled="disabled" type="submit" name="submit-audit" onclick="" class="button-png col-xs-4 col-xs-offset-2 col-sm-3 col-md-offset-2 col-md-2"><img class="img-responsive" src="img/button-submit.png" alt=""></button>
+							<span class="col-md-5 price-target"></span>
+							<button id="submit-audit" type="submit" onClick="Submit(this)" class="button-png col-xs-4 col-xs-offset-2 col-sm-3 col-md-offset-2 col-md-2"><img class="img-responsive" src="img/button-submit.png" alt=""></button>
+							<button class="button-png col-md-2 col-xs-4 col-sm-3" onclick='window.location.reload(false)'><img class="img-responsive" src="img/button-refresh.png" alt=""></button>
 						</div>
 
 					</fieldset>
@@ -220,7 +234,7 @@
 
 
 			</div>
-		</div> 
+		</div>
 		<div class="row" id="reviews">
 			<span id="reviewstitle" class="col-md-12">What do people think?</span>
 			<div class="col-md-4 item">
@@ -229,17 +243,17 @@
 					<blockquote class="quote">
 						<span>@BarTap</span> Alcool !! Haha mes amis au bar on adoré ils n'arrêtent pas de perdre donc je gagne des verres gratuit ! C'est génial et hyper divertissent.
 					</blockquote><!--//quote-->
-				</div>   
+				</div>
 				<img class="imgProfil col-xs-2 col-xs-offset-2 col-md-offset-1 col-md-2 delpadding wow slideInLeft" data-wow-delay="0.3s" src="img/Meg.png">
 				<span class="nameProfil col-md-5">Meg Chan</span>
-			</div>  
+			</div>
 			<div class="col-md-4 item">
 				<div class="quotebox">
 					<i class="fa fa-quote-left"></i>
 					<blockquote class="quote">
 						<span>@HypnoQuest</span> Totalement ouf Un jeu bien psyché !!! Je suis sorti de ce jeu avec moins de neurone que je suis venu :)
 					</blockquote><!--//quote-->
-				</div>   
+				</div>
 				<img class="imgProfil col-xs-2 col-xs-offset-2 col-md-offset-1 col-md-2 delpadding wow slideInDown" data-wow-delay="0.6s" src="img/bruno.png">
 				<span class="nameProfil col-md-5">Bruno</span>
 			</div>
@@ -249,7 +263,7 @@
 					<blockquote class="quote">
 						<span>@You Shall Not Path</span> Exelent ! très sympa et très amusant, encore un bon jeu de cette jeune équipe ! Continuez comme ça !
 					</blockquote><!--//quote-->
-				</div>   
+				</div>
 				<img class="imgProfil col-xs-2 col-xs-offset-2 col-md-offset-1 col-md-2 delpadding wow slideInRight" data-wow-delay="0.9s" src="img/NicoB.png">
 				<span class="nameProfil col-md-5">Nicolas</span>
 			</div>
@@ -259,7 +273,7 @@
 					<blockquote class="quote">
 						<span>@Forms</span> Très addictif, super jeu pour faire passer le temps dans les transports
 					</blockquote><!--//quote-->
-				</div>   
+				</div>
 				<img class="imgProfil col-xs-2 col-xs-offset-2 col-md-offset-1 col-md-2 delpadding wow slideInLeft" data-wow-delay="1.2s" src="img/profil1.png">
 				<span class="nameProfil col-md-5">Caroline</span>
 			</div>
@@ -269,7 +283,7 @@
 					<blockquote class="quote">
 						<span>@BreakUp</span> Super sympas pour briser la glace!
 					</blockquote><!--//quote-->
-				</div>   
+				</div>
 				<img class="imgProfil col-xs-2 col-xs-offset-2 col-md-offset-1 col-md-2 delpadding wow slideInRight" data-wow-delay="1.5s" src="img/neko.png">
 				<span class="nameProfil col-md-5">Kawai Nee-chan</span>
 			</div>
@@ -277,37 +291,51 @@
 		<div class="row redBg" id="team">
 			<div class="col-md-12 titleTeamSection" id=""><h1>Our team</h1></div>
 			<div class="row">
-				<div class="col-md-5 col-sm-12 col-xs-12 team">	
-					<div class="col-md-9 col-sm-9 col-xs-9">
-						<h3 class="names">Matthias Crévieaux</h3>
-						<h3 class="titlejobs">CEO</h3>
-					</div>
-					<img class="col-md-3 col-sm-3 col-xs-3 center-img img-circle img-responsive delpadding" src="img/Matthias.png" alt="">
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-5 team">
-					<img class=" col-sm-3 col-xs-3 col-md-3 col-sm-3 center-img img-circle img-responsive delpadding" src="img/Loic.png" alt="">
-					<div class="col-md-9 col-xs-9 col-sm-9">
-						<h3 class="name">Loïc Janin</h3>
-						<h3 class="titlejob">Lead Developer</h3>
-					</div>
-				</div>
-			</div>
-			<div class="row teamRow">
 				<div class="col-md-5 col-sm-12 col-xs-12 team">
-					<div class="col-md-9 col-sm-9 col-xs-9">
-						<h3 class="names">Nicolas Degrave</h3>
-						<h3 class="titlejobs">Developer</h3>
-					</div>
-					<img class=" col-md-3 col-sm-3 col-xs-3 center-img img-circle img-responsive delpadding" src="img/nico.png" alt="">
+						<div class="col-md-8 col-sm-8 col-xs-8">
+							<h3 class="names">Matthias Crévieaux</h3>
+							<h3 class="titlejobs">CEO</h3>
+						</div>
+						<img class="col-md-4 col-sm-4 col-xs-4 center-img img-circle img-responsive " src="img/team/matthias-circle.png" alt="">
 				</div>
-				<div class="col-md-offset-2 col-md-5 col-sm-12 col-xs-12 team"> 
-					<img class=" col-md-3 col-xs-3 col-sm-3 center-img img-circle img-responsive delpadding" src="img/nico.png" alt="">
-					<div class="col-md-9 col-sm-9 col-xs-9">
-						<h3 class="name">Manon Durbet</h3>
-						<h3 class="titlejob">Developer Web</h3>
-					</div>	
+				<div class="col-md-5 col-md-offset-2 col-sm-12 col-xs-12 team">
+						<img class="col-md-4 col-sm-4 col-xs-4 center-img img-circle img-responsive " src="img/team/loic-circle.png" alt="">
+						<div class="col-md-8 col-sm-8 col-xs-8">
+							<h3 class="name">Loic Janin</h3>
+							<h3 class="titlejob">Lead Programmer</h3>
+						</div>
 				</div>
-			</div>
+				<div class="col-md-5 col-sm-12 col-xs-12 team">
+						<div class="col-md-8 col-sm-8 col-xs-8">
+							<h3 class="names">Nicolas Degrave</h3>
+							<h3 class="titlejobs">Programmer</h3>
+						</div>
+						<img class="col-md-4 col-sm-4 col-xs-4 center-img img-circle img-responsive " src="img/team/nico-circle.png" alt="">
+				</div>
+				<div class="col-md-5 col-md-offset-2 col-sm-12 col-xs-12 team">
+						<img class="col-md-4 col-sm-4 col-xs-4 center-img img-circle img-responsive " src="img/team/weeno-circle.png" alt="">
+						<div class="col-md-8 col-sm-8 col-xs-8">
+							<h3 class="name">Manon Durbet</h3>
+							<h3 class="titlejob">Web Developer</h3>
+						</div>
+				</div>
+				<div class="col-md-5 col-sm-12 col-xs-12 team">
+						<div class="col-md-8 col-sm-8 col-xs-8">
+							<h3 class="names">Ariane Lemée</h3>
+							<h3 class="titlejobs">Illustrator & Accounting</h3>
+						</div>
+						<img class="col-md-4 col-sm-4 col-xs-4 center-img img-circle img-responsive " src="img/team/ariane-circle.png" alt="">
+				</div>
+				<div class="col-md-5 col-md-offset-2 col-sm-12 col-xs-12 team">
+						<img class="col-md-4 col-sm-4 col-xs-4 center-img img-circle img-responsive " src="img/team/bruno.png" alt="">
+						<div class="col-md-8 col-sm-8 col-xs-8">
+							<h3 class="name">Bruno Ferry</h3>
+							<h3 class="titlejob">Programmer</h3>
+						</div>
+				</div>
+		</div>
+	</div>
+
 		</div>
 		<div class="row" id="contactSection">
 				<div class="formContact col-md-offset-1 col-md-5 wow bounceIn" data-wow-delay="1s" id="form_contact">
@@ -316,16 +344,16 @@
 					<fieldset>
 
 						<h1 class="col-md-10">Contact us</h1>
-						<i class="fa fa-globe fa-5x col-md-2"></i>   
+						<i class="fa fa-globe fa-5x col-md-2"></i>
 						<!-- Text input-->
 						<div class="form-group">
 							<div class="col-md-offset-2 col-md-8">
 								<input id="nom" name="nom" type="text" placeholder="NAME:" class="form-control input-md" required="">
 								<span id="msg_nom"></span>
 							</div>
-						</div>     
-						<!-- Text input-->						
-						<div class="form-group">  
+						</div>
+						<!-- Text input-->
+						<div class="form-group">
 							<div class="col-md-offset-2 col-md-8">
 								<input id="mail" name="mail" type="email" placeholder="EMAIL:" class="form-control input-md" required="">
 								<span id="msg_mail"></span>
@@ -342,12 +370,15 @@
 
 						<!-- Textarea -->
 						<div class="form-group">
-							<div class="col-md-12">                     
-								<textarea class="form-control" id="mpBox" name="mpBox" placeholder="Message:" rows="8"></textarea>
+							<div class="col-md-12">
+								<textarea class="form-control" id="mpBox" name="mpBox" placeholder="Message:" rows="10"></textarea>
 								<span id="msg_mpBox"></span>
 							</div>
 						</div>
-
+						<div class="hp">
+					    <label>Si vous êtes un humain, laissez ce champ vide</label>
+					    <input type="checkbox" name="comment" class="robot">
+					</div>
 						<!-- Button -->
 						<div class="form-group">
 							<div class="col-md-offset-4 col-md-3 col-sm-3 col-sm-offset-4 col-xs-4 col-xs-offset-4">
@@ -359,11 +390,21 @@
 					</form>
 				</div>
 				<div class="col-md-offset-1 col-md-5 partner">
-					<h1>Our Partners</h1>   
-					<div><img class="" src="img/WWSIGHT.jpeg" alt="">
-						<P>WWSIGHT est une société experte en nouvelles technologies et en gestion de projets IT. Elle est composée d'ingénieurs expérimentés en informatique et en réseaux.
-						Depuis deux ans, Armogaste et WWSIGHT travaillent ensemble sur des projets et diverses applications sur mobile.</P></div>
-						<img class="" src="img/logoInge.jpg" alt="">
+					<h1>Our Partners</h1>
+					<div>
+						<img class="img-partners" src="img/Logo3.png" alt="">
+						<P>Lim'Art trains its students in Graphic Design and prepares them for a large panel of fields. Using a Manaa modules to ensure a rich variety of classes, students of Lim'Art can explore the variety of careers found in today's global market.</P>
+					</div>
+						<div class="">
+						<img class="img-partners" src="img/logoInge.jpg" alt="">
+						<p>
+							The Paris extension of Ingésup has existed since 1985 and is recognized in the field of Education in a quality environment, training the new generation of engineers and preparing them for robust professional careers.
+						</p>
+						</div>
+						<div>
+							<img class="img-partners" src="img/wwsight.jpeg" alt="">
+							<P>WWSIGHT is a company specialized in new technologies and in IT project management. It is composed of experienced computer and network engineers. For the last two years, Armogaste and wwsight have been working together on multiple mobile projects</P>
+						</div>
 					</div>
 				</div>
 				<span class="col-md-8 col-md-offset-2">Armogaste SARL - 16, Boulevard Saint-Germain 75005 Paris  |  RCS Paris B 751 652 876  |  © Copyright Armogaste</span>
@@ -371,7 +412,7 @@
 				<!-- ____MODALBOX_____ -->
 				<section class="modal--show" id="modalGames" tabindex="-1" role="dialog" aria-labelledby="modalGames" aria-hidden="true">
 					<div class="modal-inner col-md-8 col-md-offset-2">
-						
+
 						<div class="modal-content col-md-12">
 							<header id="modal-label" class="col-md-12"></header>
 							<div class="col-md-3 col-sm-3">
@@ -410,7 +451,7 @@
 									</a>
 								</div>
 							</div>
-							<div class="col-md-12 col-sm-12 col-xs-0"><a href="#!" id="" class="close-action col-md-2 col-sm-2 col-xs-12" title="Close this modal" data-dismiss="modal"><img class="img-responsive" src="img/button-close.png" alt=""></a></div>			
+							<div class="col-md-12 col-sm-12 col-xs-0"><a href="#!" id="" class="close-action col-md-2 col-sm-2 col-xs-12" title="Close this modal" data-dismiss="modal"><img class="img-responsive" src="img/button-close.png" alt=""></a></div>
 						</div>
 					</div>
 
@@ -419,14 +460,15 @@
 				</section>
 				<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 				<script type="text/javascript" src="js/bootstrap.min.js"></script>
-				<script type="text/javascript" src="js/jquery.slides.js"></script>	
+				<script type="text/javascript" src="js/jquery.slides.js"></script>
 				<script type="text/javascript" src="js/contactForm.js"></script>
-				<script type="text/javascript" src="js/app.js"></script>					
+				<script type="text/javascript" src="js/audit.js"></script>
+				<script type="text/javascript" src="js/app.js"></script>
 				<script type="text/javascript" src="js/modal.js"></script>
 				<script type="text/javascript" src="js/lightbox.js"></script>
 				<script src="js/wow.min.js"></script>
 				<script>
 					new WOW().init();
 				</script>
-			</body>  
+			</body>
 			</html>

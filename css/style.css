@@ -16,13 +16,13 @@ body{
 
 }
 .button-png{
-    background-color: rgba(0,0,0,0);;
+    background-color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
     border: 0px outset buttonface;
 }
 .row{
   margin-right: 0px !important;
-  margin-left: 0px !important; 
+  margin-left: 0px !important;
 }
 .delpadding{
 
@@ -137,11 +137,12 @@ body{
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-background-size: cover;
+  background-size: cover;
+  padding-bottom: 30px;
 
 }
 /************Phone*********/
-.phone{   
+.phone{
 
   background-image: url('../img/iphone-white.png');
   height: 600px;
@@ -179,22 +180,22 @@ body { margin: 0; }
 
 .img-rendering{
   image-rendering: optimizequality;
-} 
-div#slider { 
+}
+div#slider {
     overflow: hidden;
     padding-top: 104px;
     width: 222px;
     margin-left: 51px;
 }
 div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
+div#slider figure {
   position: relative;
   width: 500%;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite; 
+  animation: 30s slidy infinite;
 }
 
 /*__________Social Icon_______________*/
@@ -218,11 +219,11 @@ div#slider figure {
   background-color: #D01F2D;
 
 }
-.btnGroup li a {   
+.btnGroup li a {
   font-size: 2vw;
-  color: white; 
+  color: white;
   text-align: center;
-  text-decoration: none;      
+  text-decoration: none;
   text-shadow: 3px 0px 0px rgba(0, 0, 0, 0.50);
 }*/
 .fa-youtube{
@@ -387,6 +388,9 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
 .audit p{
   margin-top: 30px;
 }
+#soundDesign #complex-graphics{
+
+}
 #submit-audit img{
 
 }
@@ -432,6 +436,10 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
 
   border-bottom: 2px solid black;
 }*/
+#test-cache{
+  display: none;
+}
+
 
 /*________Reviews________*/
 
@@ -506,6 +514,9 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
   padding-bottom: 50px;
 }
 /*____Contact Section_____*/
+.hp {
+    display: none;
+}
 #contactSection{
   padding-bottom: 5%;
 }
@@ -518,10 +529,10 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
 }
 #mpBox{
   resize:none;
-  height: 
+  height:
 }
 .formContact{
-  background-color:#AD2323; 
+  background-color:#AD2323;
   margin-top: 3.11%;
   -webkit-box-shadow: 9px 9px 0px 2px rgba(102, 12, 18, 0.87);
   -moz-box-shadow: 9px 9px 0px 2px rgba(102, 12, 18, 0.87);
@@ -554,6 +565,9 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
 #contact{
 
   padding-bottom: 2%;
+}
+.img-partners{
+  width: 50%;
 }
 
 
@@ -596,28 +610,18 @@ box-shadow: 3px 1px 4px 2px rgba(0, 0, 0, 0.6);
     width: 50%;
   }
   .support {
-    margin-top: 0px; 
+    margin-top: 0px;
   }
 
 }
 
 @media screen and (max-width: 480px){
-  
+
   .plateform{
     width: 60%;
   }
   .support {
-    margin-top: 0px; 
+    margin-top: 0px;
   }
 
 }
-
-
-
-
-
-
-
-
-
-

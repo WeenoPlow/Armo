@@ -1,6 +1,7 @@
 
         $(function(){
             $("#contact").submit(function(event){
+                var robot      = $(".robot");
                 var nom        = $("#nom").val();
                 var sujet      = $("#objet").val();
                 var email      = $("#mail").val();
@@ -19,7 +20,9 @@
                     $("#msg_mail").html(msg_alert);
                 } else if (message == "") {
                     $("#msg_mpBox").html(msg_alert);
-                } else {
+                } else if (robot.checked === true) {
+                    alert("ROBOT");
+                }else {
                     $.ajax({
                         type : "POST",
                         url: $(this).attr("action"),

@@ -8,7 +8,7 @@
           $('#IBarTap').click(function() {
             $('#Modalcontent').add('<h2 class="col-md-11">' + data + '</h2>');
             console.log(data.bartap);
-          
+
         });
 */
 
@@ -21,14 +21,14 @@
 
 /*$(function () {
 
-    $('.action').click(function(event) {  
-   		event.preventDefault(); 
+    $('.action').click(function(event) {
+   		event.preventDefault();
         $.ajax('js/games.json', {}, function(data) {
         	debugger;
         	console.log(data);
         	$('.modal-content').append('<p id="description" class="col-md-8">' + data.bartap + '</p>');
       	});
-    });  
+    });
 });*/
 
 (function() {
@@ -56,7 +56,7 @@
 			dataType : 'json',
 			success  : onSuccess,
 			error    : function() {
-			  console.log('La requête n\'a pas abouti', arguments); 
+			  console.log('La requête n\'a pas abouti', arguments);
 			}
 		});
 
@@ -72,7 +72,7 @@
 					templateClone.find('.data-store').data(gameData);
 
 					templateClone.find('.action').on('click', function() {
-						
+
 						var gameData = $(this).parents('.game-template').find('.data-store').data(),
 							modalEl = $('#modalGames');
 
@@ -97,13 +97,13 @@
 						modalEl.find('#wphone a').attr('href', gameData.store[1].url);
 						modalEl.find('#apple a').attr('href', gameData.store[2].url);
 					});
-					
+
 					gameTargetEl.append(templateClone);
 				}
 			}
 		}
 	}
-    
+
         /*______________________Smooth Scroll_____________________*/
 		$('.scrollto[href^="#"]').on('click',function (e) {
 			    e.preventDefault();
@@ -117,6 +117,6 @@
 			        window.location.hash = target;
 			    });
 		});
-		
+
 
 })();

@@ -38,7 +38,7 @@
     // PREPARATION DES DONNEES
     $ip           = $_SERVER["REMOTE_ADDR"];
     $hostname     = gethostbyaddr($_SERVER["REMOTE_ADDR"]);
-    $destinataire = "m.durbet@gmail.com";
+    $destinataire = "contact@armogaste.com";
     $objet        = "[Site Web] " . $sujet;
     $contenu      = "Nom de l'expéditeur : " . $nom . "\r\n";
     $contenu     .= $message . "\r\n\n";
@@ -55,7 +55,7 @@
     if ( (empty($nom)) && (empty($sujet)) && (empty($email)) && (!filter_var($email, FILTER_VALIDATE_EMAIL)) && (empty($message)) ) {
         echo 'echec :( <br /><a href="index.html">Retour au formulaire</a>';
     } else {
-        // ENCAPSULATION DES DONNEES 
+        // ENCAPSULATION DES DONNEES
         mail($destinataire, $objet, utf8_decode($contenu), $headers);
         echo 'Formulaire envoyé';
     }
